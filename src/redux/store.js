@@ -5,6 +5,8 @@ import categorySlice from "./slices/CategorySlice"
 import subCtegoryslice from "./slices/subCategoryslice";
 import userSlice from "./slices/userSlice";
 
+import orderSlice from "./slices/orderSlice";
+
 import adminsSlice from "./slices/adminsSlice";
 
 const store = configureStore({
@@ -15,7 +17,9 @@ const store = configureStore({
         categorySlice,
         subCategory: subCtegoryslice,
         admins: adminsSlice,
+        orderSlice
     }
+    
 });
 
 export default store;

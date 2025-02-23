@@ -32,6 +32,10 @@ export const API = {
   getSubCategory: `${BASE_URL}/subcategory`,
   updateSubCategory: `${BASE_URL}/subcategory`,
   addNewSubCategory: `${BASE_URL}/subcategory`,
+
+  // orders
+  showOrders: `${BASE_URL}/order/all`,
+  
   /* ======= Product ======= */
   showProducts: `${BASE_URL}/product/show`,
   createProduct: `${BASE_URL}/product/create`,

@@ -12,6 +12,7 @@ import AllCategory from './pages/Categories/AllCategory';
 import UpdateCategory from './pages/Categories/UpdateCategory';
 import AddNewCategory from './pages/Categories/AddNewCategory';
 import Products from './pages/Products/Products';
+import Orders from "./pages/Orders/Orders";
 
 
 const Dashboard = React.lazy(() => import("./pages/Dashboard"));
@@ -41,6 +42,7 @@ const routes = [
   {path:"/addNewCategory",element:<AddNewCategory/>},
   {path:`/subcat/updatsubact/:id`,element:<UpdateSubCat/>},
   {path:'/subcat/AddNewsubact/:id',element:<AddNewSub/>},
+  {path:'/order/orderList',element:<Orders/>},
   {path:'/user/usersList', element:<UsersList/>},
   {path:'/user/updateUser/:id', element:<UpdataUser/>},
   {path:'/user/newUser', element:<AddUser/>},
